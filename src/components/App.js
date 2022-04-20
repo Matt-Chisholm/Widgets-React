@@ -4,6 +4,7 @@ import Search from "./Search";
 import Dropdown from "./Dropdown";
 import Translate from "./Translate";
 import Route from "./Route";
+import Header from "./Header";
 
 export default function App() {
 
@@ -43,6 +44,7 @@ export default function App() {
 
   return (
     <div>
+      <Header />
       <Route path="/">
         <Accordion items={items} />
       </Route>
