@@ -1,9 +1,11 @@
 import React from 'react';
 import Link from './Link';
+import './Header.css';
 
 export default function Header() {
   return (
-    <div className='ui secondary pointing menu'>
+    <div className='ui secondary pointing menu nav'>
+      <h1>Widgets</h1>
       <Link href='/' className='item'>
         Accordion
       </Link>
